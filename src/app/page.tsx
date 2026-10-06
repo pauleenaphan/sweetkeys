@@ -322,15 +322,15 @@ export default function Home() {
                     {[
                       {
                         label: "Neutral",
-                        src: "/instructions/customer-neutral.png",
+                        src: "/instructions/customer-neutral-crop.png",
                       },
                       {
                         label: "Waiting",
-                        src: "/instructions/customer-waiting.png",
+                        src: "/instructions/customer-waiting-crop.png",
                       },
                       {
                         label: "Mad",
-                        src: "/instructions/customer-mad.png",
+                        src: "/instructions/customer-mad-crop.png",
                       },
                     ].map((item) => (
                       <figure key={item.label} className="grid gap-2">
